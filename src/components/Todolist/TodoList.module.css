@@ -1,0 +1,33 @@
+.btn {
+    margin-left: 12px;
+}
+
+.listItems{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 24px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.listItems:hover{
+    transition: all 500ms ease-in;
+    background: tomato;
+    border-radius: 10px;
+}
+
+.close {
+    color:  white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: line-through;
+    background-color: black;
+}
+
+.filter{
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+}
